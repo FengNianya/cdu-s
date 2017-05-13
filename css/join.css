@@ -1,0 +1,45 @@
+body{
+  position: relative;
+  padding-bottom:100px;
+}
+.joinBox{
+  text-align: center;
+  height: 450px;
+}
+.joinBox .row{
+  text-align: center;
+}
+.joinBox img{
+  display: block;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.joinBox img:hover{
+  border: 4px solid rgb(231, 150, 150);
+}
+.joinBox a{
+  margin-top:40px;
+}
+.modal-content{
+  text-align: center;
+}
+.modal-content h4{
+  background: rgb(213, 195, 156);
+}
+.modal-content p{
+  margin:20px;
+}
+footer{
+  padding: 30px 30px 10px 30px;
+  background:#ee6e73;
+  color: #fff;
+  font-size: 10px;
+  font-weight: lighter;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%
+}
+#join{
+  background: rgb(189, 84, 98);
+}

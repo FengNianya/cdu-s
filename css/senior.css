@@ -1,0 +1,56 @@
+.top{
+  width:100%;
+  height: 350px;
+  background-image: url(../img/7.jpg);
+  background-repeat: no-repeat;
+  background-size:100%;
+  font-size:53px;
+  padding-top:5%;
+  font-weight: bold;
+  position: relative;
+  z-index: 0;
+}
+.contain{
+  padding: 30px 100px;
+}
+.row2{
+  background-image: url(../img/9.jpg);
+  background-repeat: no-repeat;
+  background-size:100%;
+  height: 300px;
+}
+.row2 .glyphicon-bookmark{
+  width: 100%;
+  color: #fff;
+  height: 30px;
+}
+.row2 .col-md-12{
+  background: rgb(222, 97, 97);
+}
+.row2 .col-md-10{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.row2 .col-md-10 p{
+  line-height:1.2em;
+  margin-left: 8%;
+  margin-top: 2%;
+  background: rgba(83, 82, 73, 0.42);
+}
+#seniorp1{
+  display: none;
+}
+/*@media only screen and (max-width: 600px) {
+  #seniorp1{
+  display: block;
+  }
+}*/
+@media screen and (max-width: 500px) {
+  #seniorp1{
+  display: block;
+  }
+}
+#senior{
+  background: rgb(189, 84, 98);
+}
